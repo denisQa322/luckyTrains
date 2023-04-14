@@ -1,0 +1,883 @@
+
+@media screen and (max-width: 420px) {
+    .container{
+        max-width: 320px;
+    }
+    //* header-media
+    header.header {
+        .burger-wrapper {
+            position: absolute;
+            right: -10px;
+            top: 10px;
+            width: 50px;
+            height: 30px;
+            padding-top: 5px;
+            transition: 0.5s;
+            span {
+              background: #103f7c;
+              display: block;
+              width: 30px;
+              height: 5px;
+              margin-bottom: 5px;
+            }
+            .burger-close{
+                position: absolute;
+                display: none;
+                font-size: 30px;
+                border: none;
+                background: none;
+                color: white;
+                transition: 0.5s;
+            }
+        }
+        .container.flex-between{
+            flex-direction: column;
+        }
+        .header-logo {
+            margin-bottom: 10px;
+          img {
+            width: 150px;
+            height: 70px;
+          }
+        }
+        .menu{
+            display: none;
+            a {
+                color: white;
+                li {
+                  font-size: toVw(15px);
+
+                }
+              }
+        }
+        .container button.request-btn{
+            width: 100px;
+            height: 20px;
+            align-items: center;
+            text-align: center;
+            padding: 5px 5px 5px 25px;
+            font-size: 5px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        div.feedback{
+            gap: 0;
+            div.feedback-call{
+                a{
+                    img{
+                        width: 10px;
+                        height: 10px;
+                    }
+                }
+                a{
+                    font-size: 10px;
+                }
+            }
+            div.feedback-mail{
+                a{
+                    img{
+                        width: 8.5px;
+                        height: 6px;
+                    }
+                }
+                a{
+                    font-size: 10px;
+                }
+            }
+        }
+        .request-call-wrapper{
+            .request-call{
+                width: 200px;
+                padding: 10px;
+                form{
+                    .request-call-header{
+                        font-size: 13px;
+                    }
+                    .request-call-description{
+                        font-size: 6.5px;
+                    }
+                    input{
+                        width: 100%;
+                        font-size: 6.5px;
+                    }
+                    .request-call-send {
+                        padding: 5px;
+                        font-size: 5px;
+                    }
+                }
+                .request-call-close{
+                    font-size: 10px;
+                }
+            }
+            .modal-thanks-request-wrapper{
+                .modal-thanks-request-send{
+                    width: 200px;
+                    padding: 10px;
+                    .modal-thanks-request-header{
+                        font-size: 13px;
+                    }
+                    .modal-thanks-request-description{
+                        font-size: 6.5px;
+                        line-height: 140%;
+                    }
+                    .modal-thanks-request-images{
+                        a{
+                            img{
+                                width: 10px;
+                                height: 10px;
+                            }
+                        }
+                    }
+                    .modal-thanks-request-text{
+                        font-size: 5px;
+                    }
+                    .modal-thanks-request-close{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+    //*main-page-media
+    .home{
+        .first-screen{
+            //*slider-media
+            div.slider{
+                height: 200px;
+                div.buttons{
+                    div.slider-buttons{
+                        div.buttons{
+                            div.slider-buttons__wrapper{
+                                div.slider-buttons{ 
+                                    button{
+                                        width: 16px;
+                                        height: 16px;
+                                        img{
+                                            width: 10px;
+                                            height: 6px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    div.callback-buttons{
+                        .callback-buttons__wrapper{
+                            .outer-circle{
+                                top: 60px;
+                                width: 35.5px;
+                                height: 35.5px;
+                                .inner-circle{
+                                    top: 4px;
+                                    right: 4px;
+                                    width: 28px;
+                                    height: 28px;
+                                    .callback-btn{
+                                        padding: 5px;
+                                        top: 3px;
+                                        right: 3px;
+                                        img{
+                                            
+                                            width: 11.5px;
+                                            height: 11.5px;
+                                        }
+                                    }
+                                }
+                            }
+                            .close-callback{
+                                top: 85px;
+                                right: 25px;
+                                img{
+                                    width: 12.5px;
+                                    height: 12.5px;
+                                }
+                            }
+                            .callback-buttons__menu{
+                                ul.callback-menu_list{
+                                    top: 75.5px;
+                                    right: 45px;
+                                    gap: 2.5px;
+                                    button{
+                                        padding: 5px 8px;
+                                        font-size: 4px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .exchange-rate{
+                        left: 250px;
+                        ul.exchange-rate-menu{
+                            font-size: 6.5px;
+                            li{
+                                a{
+                                    font-size: 6.5px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .slider-items-line{
+                    .slider-items{
+                        .slider-item{
+                            height: 200px;
+                            .slider-title{
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+                .get-call-wrapper{
+                    .get-call{
+                        width: 200px;
+                        padding: 10px;
+                        form{
+                            .get-call-header{
+                                font-size: 13px;
+                            }
+                            .get-call-description{
+                                font-size: 6.5px;
+                            }
+                            input{
+                                width: 100%;
+                                font-size: 6.5px;
+                            }
+                            .get-call-send {
+                                padding: 5px;
+                                font-size: 5px;
+                            }
+                        }
+                        .get-call-close{
+                            font-size: 10px;
+                            
+                        }
+                    }
+                    .modal-send-call-wrapper{
+                        .modal-send-call{
+                            width: 200px;
+                            padding: 10px;
+                            &-header{
+                                font-size: 13px;
+                            }
+                            &-description{
+                                font-size: 6.5px;
+                                line-height: 140%;
+                            }
+                            &-images{
+                                a{
+                                    img{
+                                        width: 10px;
+                                        height: 10px;
+                                    }
+                                }
+                            }
+                            &-text{
+                                font-size: 5px;
+                            }
+                            &-close{
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+                .modal-wrapper{
+                    .modal-message{
+                        width: 200px;
+                        padding: 10px;
+                        form{
+                            .modal-message-header{
+                                font-size: 13px;
+                            }
+                            .modal-message-description{
+                                font-size: 6.5px;
+                            }
+                            input{
+                                width: 100%;
+                                font-size: 6.5px;
+                            }
+                            textarea{
+                                width: 100%;
+                                font-size: 6.5px;
+                            }
+                            .modal-message-btn-send {
+                                padding: 5px;
+                                font-size: 5px;
+                            }
+                        }
+                        .modal-message-close{
+                            font-size: 10px;
+                        }
+                    }
+                    .modal-send-wrapper{
+                        .modal-send{
+                            width: 200px;
+                            padding: 10px;
+                            &-header{
+                                font-size: 13px;
+                            }
+                            &-description{
+                                font-size: 6.5px;
+                                line-height: 140%;
+                            }
+                            &-images{
+                                a{
+                                    img{
+                                        width: 10px;
+                                        height: 10px;
+                                    }
+                                }
+                            }
+                            &-text{
+                                font-size: 5px;
+                            }
+                            &-close{
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+                .modal-rate-wrapper{
+                    .modal-rate{
+                        width: 200px;
+                        height: 190px;
+                        padding: 10px;
+                        &__header{
+                            font-size: 8px;
+                        }
+                        form{
+                            .modal-rate__first-column{
+                                gap: 0;
+                                input{
+                                    width: 100%;
+                                    font-size: 5px;
+                                }
+                                .company-name-wrapper{
+                                    .company-name-image{
+                                        top: 11.5px;
+                                        left: 3px;
+                                        width: 5px;
+                                        height: 5px;
+                                    }
+                                }
+                                .to-country-wrapper{
+                                    .to-country-img{
+                                        top: 11.5px;
+                                        left: 3px;
+                                        width: 5px;
+                                        height: 5px;
+                                    }
+                                }
+                                .from-country-wrapper{
+                                    .from-country-img{
+                                        top: 11.5px;
+                                        left: 3px;
+                                        width: 5px;
+                                        height: 5px;
+                                    }
+                                }
+                                .station-from-wrapper{
+                                    .station-from-img{
+                                        top: 11.5px;
+                                        left: 3px;
+                                        width: 5px;
+                                        height: 7px;
+                                    }
+                                }
+                                .station-to-wrapper{
+                                    .station-to-img{
+                                        top: 11.5px;
+                                        left: 3px;
+                                        width: 5px;
+                                        height: 7px;
+                                    }
+                                }
+                            }
+                            .modal-rate__second-column{
+                                gap: 0;
+                                input{
+                                    width: 100%;
+                                    font-size: 5px;
+                                }
+                                .your-name-wrapper{
+                                    .your-name-img{
+                                        top: 12.5px;
+                                        left: 3px;
+                                        width: 5px;
+                                        height: 5px;
+                                    }
+                                }
+                                .luggage-info-wrapper{
+                                    .luggage-info-img{
+                                        top: 11.5px;
+                                        left: 3px;
+                                        width: 6px;
+                                        height: 6px;
+                                    }
+                                }
+                                .luggage-weight-wrapper{
+                                    .luggage-weight-img{
+                                        width: 9px;
+                                        height: 6px;
+                                        top: 11.5px;
+                                        left: 2px;
+                                    }
+                                }
+                                .train-type-wrapper{
+                                    .train-type-img{
+                                        left: 3px;
+                                        top: 11.5px;
+                                        width: 7px;
+                                        height: 7px;
+                                    }
+                                }
+                                .train-own-wrapper{
+                                    .train-own-img{
+                                        width: 5px;
+                                        height: 5px;
+                                        top: 11.5px;
+                                        left: 5px;
+                                    }
+                                }
+                            }
+                            .modal-rate__third-column{
+                                gap: 0;
+                                input{
+                                    width: 100%;
+                                    font-size: 5px;
+                                }
+                                textarea{
+                                    min-width: 100%;
+                                    font-size: 6.5px;
+                                    margin-top: 5px;
+                                    min-height: 64px;
+                                }
+                                .your-phone-wrapper{
+                                    .your-phone-img{
+                                        width: 5px;
+                                        height: 5px;
+                                        top: 11.5px;
+                                        left: 4px;
+                                    }
+                                }
+                                .your-mail-wrapper{
+                                    .your-mail-img{
+                                        width: 6px;
+                                        height: 5px;
+                                        top: 12.5px;
+                                        left: 3px;
+                                    }
+                                }
+                                .your-message-wrapper{
+                                    .your-message-img{
+                                        width: 5px;
+                                        height: 5px;
+                                        top: 8.5px;
+                                        left: 3px;
+                                    }
+                                }
+                            }
+                            .send-checkboxes{
+                                left: 10px;
+                                .modal-rate-btn-send{
+                                    font-size: 5px;
+                                    padding: 5px;
+                                }
+                                .checkboxes-wrapper {
+                                    align-items: center;
+                                    .checkboxes-title{
+                                        font-size: 5px;
+                                    }
+                                    .checkboxes{
+                                        input{
+                                            border: none;
+                                            height: 5px;
+                                            width: 5px;
+                                            margin-right: 1px;
+                                        }
+                                        .checkbox-phone {
+                                            width: 6px;
+                                            height: 6px;
+                                        }
+                                        .checkbox-email{
+                                            width: 8px;
+                                            height: 6px;
+                                        }
+                                        .checkbox-messanger{
+                                            width: 9px;
+                                            height: 7px;
+                                        }
+                                        p{
+                                            font-size: 5px;
+                                            line-height: 140%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .modal-rate-close{
+                            font-size: 10px;
+                        }
+                    }
+                    .modal-send-rate-wrapper{
+                        .modal-send-rate{
+                            width: 200px;
+                            padding: 10px;
+                            &-header{
+                                font-size: 13px;
+                            }
+                            &-description{
+                                font-size: 6.5px;
+                                line-height: 140%;
+                            }
+                            &-images{
+                                a{
+                                    img{
+                                        width: 10px;
+                                        height: 10px;
+                                    }
+                                }
+                            }
+                            &-text{
+                                font-size: 5px;
+                            }
+                            &-close{
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+            .container{
+                .pay-fast{
+                    .pay-fast__header{
+                        font-size: 12px;
+                    }
+                    .pay-fast__description{
+                        font-size: 6.5px;
+                    }
+                    .pay-fast__text{
+                        font-size: 5px;
+                    }
+                }
+            }
+        }
+        //*service-media
+        section.service-section{
+            .container{
+                .services-wrapper{
+                    .container.flex-between{
+                        flex-direction: column;
+                        .services-info{
+                            .services-header{
+                                font-size: 12px;
+                            }
+                            .services-red-header{
+                                font-size: 7.5px;
+                            }
+                            .services-text{
+                                font-size: 5px;
+                                margin-bottom: 10px;
+                            }
+                        }
+                        .services-image-wrapper{
+                            margin: auto;
+                            height: 110px;
+                            .service-red-bg{
+                                width: 150px;
+                                height: 100px;
+                                top: 5px;
+                            }
+                            .service-image-bg{
+                                width: 145px;
+                                height: 100px;
+                                padding-top: 20px;
+                                top: -100px;
+                                p{
+                                    font-size: 6.5px;
+                                    margin-bottom: 0;
+                                }
+                                .service-get-call{
+                                    button{
+                                        font-size: 6.5px;
+                                        img{
+                                            width: 3px;
+                                            height: 3px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .order-service-wrapper{
+                        .order-service{
+                            width: 200px;
+                            padding: 10px;
+                            form{
+                                .order-service-header{
+                                    font-size:13px;    
+                                }
+                                .order-service-description{
+                                    font-size: 6.5px;
+                                }
+                                input{
+                                    width: 100%;
+                                    font-size: 6.5px;
+                                }
+                                .order-service-send{
+                                    padding: 5px;
+                                    font-size: 5px;
+                                }
+                            }
+                            button.order-service-close{
+                                font-size: 10px;
+                            }
+                        }
+                        .modal-order-wrapper{
+                            .modal-order{
+                                width: 200px;
+                                padding: 10px;
+                                &-header{
+                                    font-size: 13px;
+                                }
+                                &-description{
+                                    font-size: 6.5px;
+                                    line-height: 140%;
+                                }
+                                &-images{
+                                    a{
+                                        img{
+                                            width: 10px;
+                                            height: 10px;
+                                        }
+                                    }
+                                }
+                                &-text{
+                                    width: 100%;
+                                    font-size: 5px;
+                                    line-height: 140%;
+                                }
+                                &-close{
+                                    font-size: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        //*benefits-media
+        section.benefits-section{
+            .container{
+                .benefits-title{
+                    h1{
+                        font-size: 13px;
+                    }
+                }
+                .benefits{
+                    .container.grid{
+                        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+                        .benefits-item{
+                            .benefits-img{
+                                height: 20px;
+                                width: 20px;
+                                display: flex;
+                                align-items: center;
+                                text-align: center;
+                                img{
+                                    width: 12px;
+                                    height: 10px;
+                                }
+                            }
+                            .benefits-info{
+                                .benefits-info__header{
+                                    font-size: 7px;
+                                }
+                                .benefits-info__description{
+                                    font-size: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        //*scheme-media
+        section.scheme-section{
+            .scheme-wrapper{
+                .scheme{
+                    background: none;
+                    height: 200px;
+                    .container{
+                        .scheme-title{
+                            font-size: 13px;
+                        }
+                        .scheme-description{
+                            font-size: 6.5px;
+                        }
+                    }
+                    .scheme-big-numbers{
+                        flex-direction: column;
+                        max-width: 300px;
+                        margin: auto;
+                        
+                        .scheme-big-numbers__number{
+                            font-size: 20px;
+                        }
+                        .scheme-big-numbers__description {
+                            font-size: 9px;
+                        }
+                        &-one{
+                            padding: 0;
+                            .scheme-big-numbers__description{
+                                min-width: 100%;
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+                        &-two{
+                            padding: 0;
+                            .scheme-big-numbers__description{
+                                min-width: 100%;
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+                        &-three{
+                            padding: 0;
+                            .scheme-big-numbers__description{
+                                min-width: 100%;
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+                        &-four{
+                            padding: 0;
+                            .scheme-big-numbers__description{
+                                min-width: 100%;
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+                        &-five{
+                            padding: 0;
+                            .scheme-big-numbers__description{
+                                min-width: 100%;
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        section.count-section{
+            .count{
+                height: 130px;
+                form{
+                    .count-header{
+                        font-size: 10px;
+                    }
+                    .count-inputs{
+                        input{
+                            font-size: 6.5px;
+                            padding: 6.5px;
+                        }
+                    }
+                    .btn-send{
+                        width: 100px;
+                        padding: 5px;
+                        font-size: 5px;
+                    }
+                }
+                .modal-send-message-wrapper{
+                    .modal-send-message{
+                        width: 200px;
+                        padding: 10px;
+                        .modal-send-message-header{
+                            font-size: 13px;
+                        }
+                        .modal-send-message-description{
+                            font-size: 6.5px;
+                            line-height: 140%;
+                        }
+                        .modal-send-message-images{
+                            a{
+                                img{
+                                    width: 10px;
+                                    height: 10px;
+                                }
+                            }
+                        }
+                        .modal-send-message-text{
+                            font-size: 5px;
+                            line-height: 140%;
+                        }
+                        .modal-send-message-close{
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //*footer-media
+    .footer-wrapper{
+        .footer-top{
+            text-align: center;
+            .container.flex-between{
+                flex-direction: column;
+                .footer-top-logo{
+                    img{
+                        width: 150px;
+                        height: 70px;
+                        margin-bottom: 10px;
+                    }
+                }
+                .menu{
+                    display: none;
+                }
+                .footer-top-socials{
+                    a{
+                        img{
+                            width: 15px;
+                            height: 15px;
+                        }
+                    }
+                }
+                .footer-top-feedback{
+                    &-call{
+                        img{
+                            width: 10px;
+                            height: 10px;
+                        }
+                        a{
+                            font-size: 10px;
+                        }
+                    }
+                    &-mail{
+                        img{
+                            width: 9px;
+                            height: 6px;
+                        }
+                        a{
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        .footer-bottom{
+            .container{
+                .footer-bottom-rights{
+                    font-size: 8px;
+                }
+                .footer-bottom-created{
+                    font-size: 8px;
+                    a{
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+    }
+}
